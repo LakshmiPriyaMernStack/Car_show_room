@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <link rel="icon" href="./logo.png">
+    <style>
+        ul{
+            background-color: white;
+            border-radius: 5px;
+            align-content: center;
+            display:inline;
+            position:absolute;
+            left:2%;
+        }
+        
+        .nav1 li{
+            margin-top:10px;
+            list-style-type:none;
+            display: inline-block;
+            padding-left:20px;
+            padding-right: 20px;   
+            font-weight:bold; 
+            padding-bottom: 10px;
+
+        }
+        ul li:hover{
+            background-color: rgb(231, 233, 233);
+            border-radius: 5px;
+            padding-right:15px ; 
+            margin-left: 10px; 
+            margin-bottom:10px;
+            
+        }
+        li a{
+            text-decoration: none;
+            font-size: 20px;
+            align-content: center;
+            color:rgb(0, 0, 0);
+        }
+        .icon{
+            display:inline-block;
+            padding-left:100px; 
+            color:black;
+           
+       }
+       .icon i{
+        color:black;
+        justify-content: space-around;
+       }
+        body{
+            
+            background-image: url(./back1.png);
+                /* width: 400px;
+                height:400px; */
+            background-repeat: no-repeat;
+            z-index: -1;
+            background-size: cover;
+            height:722px;
+                     
+        }
+        .page{
+            position: absolute;
+            left:33%;
+            top:30%;
+            /* margin-top: 200px;
+            margin-left: 450px; */
+            /* border:5px solid rgb(203, 207, 222); */
+            background-color: rgba(240, 248, 255, 0.368);
+            width:600px;
+            height: 400px;
+            /* padding-top: 150px; */
+            /* box-shadow: 5px 5px 5px black; */
+            justify-items: center;
+            
+        }
+        header{
+            color:rgb(0, 5, 58);
+            padding-top: 20px;
+            font-size: 30px;
+            font-weight: bolder;
+            padding-top: 10px;
+            text-align: center;
+            
+        }
+        .form{
+            font-size: 24px;
+            margin-top: 60px;
+            padding-bottom: 20px;
+        }
+        label{
+            color:rgb(0, 71, 213);
+        }
+        input{
+            width:500px;
+            height:35px;
+            border-style:none;
+            border-radius: 5px;
+        }
+        button{
+            margin-top: 20px;
+            width:500px;
+            height:30px;
+            border-style:none;
+            border-radius: 5px;
+            background-color: rgb(86, 98, 239);
+            cursor: pointer;
+            color:white;
+            font-size:18px;
+            font-weight: bold;
+        }
+        p a{
+            text-decoration: none;
+            color:rgb(86, 98, 239);
+            font-size: 20px;
+            font-weight: bold;
+        }
+        p a:hover{
+            color:rgb(0, 5, 58);
+            text-decoration: underline;
+        }
+        footer{
+            background-color: lightgrey;
+            padding-bottom:40px;
+            margin-top: 1084px;
+        }
+        th{
+            padding-top:60px;
+            padding-left:120px;
+            padding-bottom:45px;
+            /* padding-right:45px; */
+            font-weight: bold;
+            font-size:30px;
+        }
+        .rows td{
+            padding-top:20px;
+            padding-left:120px;
+            /* padding-right:45px; */
+            padding-bottom:40px;
+            font-size: 24px;
+        }
+        td a{
+            text-decoration: none;
+            color:black;
+            
+        }
+        
+        #line1{
+            text-align: center;
+            padding-top:100px;
+            /* padding-left:250px; */
+        }
+        #line2{
+            text-align: center;
+            /* padding-left:500px; */
+        }
+        .logos1{
+            padding-left: 120px;
+        }
+        .c1{
+            /* border-top: 2px solid; */
+            margin-top:-100px;    
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <ul class="nav1">
+            <li ><a href="./index1.html">Home</a></li>
+            <li><a href="#">Sales</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="./Shop.html">Shop</a></li>
+            <li><a href="#">Media</a></li>
+            <li><a href="./about.html">About US</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="#">Sell my Car</a></li>
+        </ul>
+        <div class="icon">
+            <a href="login.html">
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+            </a>
+        </div>
+    </div>
+    <div class="page">
+        <header>Login</header>
+        <div class="form">
+    <form>
+        <label for="userid">User Id:</label><br>
+        <input type="text" id="userid"name="Userid" placeholder="Enter User Id"><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password"name="password" placeholder="Enter Password">
+    </form>
+    </div>
+    <button>Login</button>
+    <p style="color:white;">Don't have an account?<a href="./signup.html">Sign Up</a>
+</div>
+<footer>
+    <div class="size">
+    <table>
+        <thead>
+            <th>SHOWROOM</th>
+            <th>MEDIA GALLERY</th>
+            <th>CONTACT US</th>
+            <hr>
+        </thead>        
+        <tr class="rows">
+            <td><a href="#">Cars for sale</a></td>
+            <td><a href="#">Image gallery</a></td>
+            <td><a href="">How to find us</a></td>
+        </tr>
+        <tr class="rows">
+            <td><a href="#">previously sold cars</a></td>
+            <td><a href="#">Video gallery</a></td>
+            <td><a href="">(+971)-4-320-1030</a></td>
+        </tr>
+        <tr class="rows">
+            <td><a href="#">Compare Cars</a></li></td>
+            <td><a href="#">360 Tour</a></td>
+            <td><a href="">info@firstmotors.com</a></td>
+        </tr>
+        <tr class="rows">
+            <td><a href="#">News</a></td>
+        </tr>
+        <tr id="r1" class="rows">
+            <td><a href="#">About us</a></td>
+        </tr>
+    </table>
+    <span>
+    <img style="margin-left:1200px;width:380px;position: absolute;top:160%;"src="./file.png">
+    <div class="logos1">
+        <img style="margin-left:1110px;width:35px;position: absolute;top:167%;"src="./youtube.png">
+        <img style="margin-left:1180px;width:40px;position: absolute;top:167%;"src="./instagram.png">
+        <img style="margin-left:1240px;width:63px;position: absolute;top:165.6%;"src="./linkedin.png">
+        <img style="margin-left:1320px;width:42px;position: absolute;top:166.5%;"src="./facebook.png">
+        <img style="margin-left:1390px;width:31px;position: absolute;top:167%;"src="./tiktok.png">
+    
+    </div>
+    </span>
+    <div class="c1">
+    <p id="line1">&copy F1RSTMOTORS. ALL RIGHTS RESERVED. REGISTERED COMPANY NUMBER:<b>+91743201030</b></p>
+     <p id="line2">TERMS & CONDITIONS</p></div>
+    </footer>
+</div>  
+</body>
+</html>

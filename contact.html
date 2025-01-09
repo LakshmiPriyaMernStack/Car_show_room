@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <title>Contact</title>
+    <style>
+         nav{
+            /* text-align: center; */
+            background-color: white;
+            margin: 0px 0px;
+            padding:33px;
+            position: fixed;
+            width:100%;
+            top:0px;
+        }
+        img{
+            padding-bottom: 25px;
+            
+        }
+        .image img{
+            display:flex;
+            width:19%;
+            height:110%;
+            position:absolute;
+            top:1px;
+            bottom: 1px;
+            left:31%;
+        }
+        hr{
+            width:100%;
+            margin-left:-30px;
+            
+            border:2px solid;
+            opacity: 0.25;
+        }
+        ul{
+            display:inline;
+            position:absolute;
+            right:10%;
+        }
+        
+        .nav1 li{
+            margin-top:10px;
+            list-style-type:none;
+            display: inline-block;
+            padding-left:20px;
+            /* padding-right: 20px;    */
+            font-weight: bold; 
+        }
+        .nav1 li:hover{
+            background-color: rgb(250, 6, 6);
+            border-radius: 5px;
+            padding-right:15px ; 
+            margin-left: 10px;   
+        }
+        li a{
+            text-decoration: none;
+            font-size: 20px;
+            color:rgb(0, 0, 0);
+        }
+        .icon{
+            display:inline-block;
+            padding-left:100px; 
+            color:black; 
+       }
+       .icon i{
+        color:black;
+        justify-content: space-around;
+        padding-left:20px;
+        padding-top: 20px;
+       }
+       .pic img{
+        width:100%;
+       }
+       .pic{
+        image-resolution: 100px;
+        margin-top:250px;
+        background-size: cover;
+       }
+       .abc{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: larger;
+       }
+      
+.grid-box{
+    display:grid;   
+    grid-template-columns: repeat(4,1fr);
+    z-index:-1;
+}
+.box{
+    border:8px solid;
+    font-size: 24px;
+    text-align: center;
+    padding:30px;
+    margin:55px;
+    background-color: lightgrey;
+    border-style:none;
+    z-index:-1;
+}
+ .c1{
+    text-align: justify;
+ }
+ .flex-grow{
+    position: absolute;
+    left:40%;
+    top:80%;
+    z-index:-1;
+ }
+ .motors{
+    position: absolute;
+    top:130%;
+    z-index:-1;
+ }
+ .heading1{
+    
+    margin-top:250px;
+    padding-left: 600px;
+    font-weight: bold;
+    font-size: 34px;
+ }
+ .para{
+    border:2px solid;
+    font-size: 24px; 
+    width:600px;
+    margin-left: 50px;
+    margin-top:220px;
+    line-height:40px;
+    border-style: none;
+ }
+ .size{
+    margin-top:200px;
+    background-color: lightgrey;
+    padding-bottom: 30px;
+ }
+ th{
+            padding-top:60px;
+            padding-left:120px;
+            padding-bottom:45px;
+            /* padding-right:45px; */
+            font-weight: bold;
+            font-size:30px;
+            border-bottom:2px solid;
+        }
+        .rows td{
+            padding-top:20px;
+            padding-left:120px;
+            /* padding-right:45px; */
+            padding-bottom:40px;
+            font-size: 24px;
+        }
+        td a{
+            text-decoration: none;
+            color:black;
+            
+        }
+        #r1{
+            border-bottom: 2px solid ;
+
+        }
+        #line1{
+            padding-left:250px;
+        }
+        #line2{
+            padding-left:500px;
+        }
+        .logos1{
+            padding-left: 120px;
+        }
+        .c1{
+            margin-top:0px;
+        }
+        .py-8 {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+        .px-4 {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        .max-w-7xl {
+            max-width: 80rem;
+        }
+        .mx-auto {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .container {
+            width: 100%;
+        }
+        @media (min-width: 640px) {
+            .sm\:grid-cols-2 {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+        .gap-12 {
+            gap: 3rem;
+        }
+        .grid {
+            display: grid;
+        }
+        .text-black {
+            --tw-text-opacity: 1;
+            color: rgb(0 0 0 / var(--tw-text-opacity));
+        }
+        .max-w-sm {
+            max-width: 24rem;
+        }
+        div {
+            display: block;
+            unicode-bidi: isolate;
+        }
+        .text-neutral-500 {
+            --tw-text-opacity: 1;
+            color: rgb(115 115 115 / var(--tw-text-opacity));
+        }
+        .gap-6 {
+            gap: 1.5rem;
+        }
+        .block {
+            display: block;
+        }
+        .pl-1 {
+            padding-left: .25rem;
+        }
+        .block {
+            display: block;
+        }
+        .mb-3 {
+            margin-bottom: .75rem;
+        }
+        .p-2 {
+    padding: .5rem;
+    }
+    fieldset{
+        border:3px solid;
+        width:400px;
+        height:450px;
+      
+    }
+    .box-text span{
+        font-size:24px;
+    }
+    .block{
+        font-size:18px;
+    }
+    button{
+        z-index:-1;
+        position: absolute;
+        left:60%;
+    }
+    legend{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .dropdown_nav-bar{
+            display:none;
+        }
+        .nav-bar ul li:hover .dropdown_nav-bar{
+            display:block;
+            position:absolute;
+            left:40%;
+            top:100%;
+            background-color: var(--color-black);
+        }
+        .dropdown_nav-bar ul{
+            display:block;
+            margin:10px;
+            background:white;
+            padding-left: 5px;
+            padding-right:5px;
+            font-family:'Times New Roman', Times, serif;
+        }
+        .dropdown_nav-bar ul li{
+            width:200px;
+            padding:10px;
+            font-size: small;
+        }
+        .dropdown_nav-bar li:hover{
+            background-color:lightgrey;
+            border-radius:10px;
+        }
+        .dropdown_nav-bar ul a{
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav><img src="./file.png">
+            <span class="image"><img src="./car.png"></span>
+            
+            <div class="nav-bar">
+            <hr>
+            <ul class="nav1">
+                <li ><a href="./index1.html">Home</a></li>
+                <li ><a href="">Sales</a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                <div class="dropdown_nav-bar">
+                    <ul>
+                        <li><a href="#">Available Cars</a></li>                       
+                        <li><a href="#">Previously Sold</a></li>
+                        <li><a href="#">Number Plates</a></li>
+                        <li><a href="#">Compare</a></li>
+                    </ul>
+                </div></li>
+                <li style="font-size:20px;">News</a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <div class="dropdown_nav-bar">
+                        <ul>
+                            <li><a href="#">New</a></li></a></li>
+                            <li><a href="#">Blogs</a></li></a></li>
+                        </ul>
+                <li ><a href="./Shop.html">Shop</a></li>
+                <li ><a href="#">Media</a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <div class="dropdown_nav-bar">
+                        <ul>
+                            <li><a href="#">Image Gallery</a></li></a></li>
+                            <li><a href="#">Video Gallery</a></li></a></li>
+                        </ul>
+                <li><a href="./about.html">About US</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="#">Sell my Car</a></li>
+            </ul>
+                
+                <div class="icon">
+                    <a href="login.html">
+                    <i class="fa-solid fa-user"></i></a>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="pic">
+            <img src="./contact.png">
+        </div>
+        <div class="container max-w-7xl mx-auto py-8 lg:py-20 px-4">
+            <div class="flex-shrink-0 grid grid-cols-1 sm:grid-cols-2 gap-12 ">
+                <div class="max-w-sm space-y-8">
+                    <fieldset>
+                        <legend>Location</legend>
+                    <div class="box-text">
+                        <h3 class="uppercase font-semibold text-sm tracking-wider">ADDRESS</h3>
+                        <span class="block mt-2 text-neutral-500">********************</span><br>
+                    </div>
+                    <br>
+                    <div class="box-text">
+                        <h3 class="uppercase font-semibold text-sm tracking-wider">EMAIL</h3>
+                        <span class="block mt-2 text-neutral-500">info@f1rstmotors.com</span><br>
+                    </div>
+                    <br>
+                    <div class="box-text">
+                        <h3 class="uppercase font-semibold text-sm tracking-wider">PHONE</h3>
+                        <span class="block mt-2 text-neutral-500">00971-4-320-1030</span><br>
+                    </div>
+                    </fieldset>
+                </div>
+                
+                <div>
+                    <form class="grid grid-cols-1 gap-6" style="text-emphasis-color: gray;" action="#" method="post">
+                        <fieldset>
+                            <legend>Message Us</legend>
+                        <label class="block">
+                            <label class="block text-black pl-1 mb-3">Full name</label>
+                            <input class="block w-full border border-natural-400 focus:border-primary-300 focus:ring focus:ring-primary-200 
+                            focus:ring-opacity-50 bg-white rounded-2xl text-sm font-normal text-neutral-700 h-11 px-4 py-3 mt-1 rounded-none" 
+                            id="contact-name-input" placeholder="enter your full name" type="text" value fdprocessedid="p19rh">
+                        </label>
+                        <br>
+                        <label class="block">
+                            <label class="block text-black pl-1 mb-3">Email address</label>
+                            <input class="block w-full border border-natural-400 focus:border-primary-300 focus:ring focus:ring-primary-200 
+                            focus:ring-opacity-50 bg-white rounded-2xl text-sm font-normal text-neutral-700 h-11 px-4 py-3 mt-1 rounded-none"  
+                            id="contact-email-input" placeholder="enter your email address" type="email" value fdprocessedid="l32su">
+                        </label>
+                       <br>
+                        <label class="block">
+                            <label class="block text-black pl-1 mb-3">Message</label>
+                            <textarea class="block w-full p-2 text-sm rounded-2xl border-neutral-200 focus:border-primary-300 focus:ring 
+                            focus:ring-primary-200 focus:ring-opacity-50 bg-white mt-1 rounded-none border" rows="6" id="contact-message-input"></textarea>
+                        </label>
+                        <br>
+                        <div>
+                            <button class="nc-Button relative h-auto inline-flex items-center justify-center rounded-full transition-colors 
+                            text-sm sm:text-base font-medium px-4 py-3 sm:px-6  ttnc-ButtonPrimary disabled:bg-opacity-70 bg-primary-6000 
+                            hover:bg-primary-700 text-gray-600 font-semibold border border-gray-600 rounded rounded-none border-slate-300 " 
+                            type="button" fdprocessedid="apww6m" style="cursor: pointer; width: 150px; height: 60px;">Send Message</button>
+                        </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="size">
+            <table>
+                <thead>
+                    <th>SHOWROOM</th>
+                    <th>MEDIA GALLERY</th>
+                    <th>CONTACT US</th>
+                </thead>        
+                <tr class="rows">
+                    <td><a href="#">Cars for sale</a></td>
+                    <td><a href="#">Image gallery</a></td>
+                    <td><a href="">How to find us</a></td>
+                </tr>
+                <tr class="rows">
+                    <td><a href="#">previously sold cars</a></td>
+                    <td><a href="#">Video gallery</a></td>
+                    <td><a href="">(+971)-4-320-1030</a></td>
+                </tr>
+                <tr class="rows">
+                    <td><a href="#">Compare Cars</a></li></td>
+                    <td><a href="#">360 Tour</a></td>
+                    <td><a href="">info@firstmotors.com</a></td>
+                </tr>
+                <tr class="rows">
+                    <td><a href="#">News</a></td>
+                </tr>
+                <tr id="r1" class="rows">
+                    <td><a href="#">About us</a></td>
+                </tr>
+            </table>
+            <span>
+            <img style="margin-left:1100px;width:380px;position:absolute;top:150%;"src="./file.png">
+            <div class="logos1">
+                <img style="margin-left:1000px;width:35px;position:absolute;top:160%;"src="./youtube.png">
+                <img style="margin-left:1075px;width:40px;position:absolute;top:160%;"src="./instagram.png">
+                <img style="margin-left:1150px;width:63px;position:absolute;top:158.5%;"src="./linkedin.png">
+                <img style="margin-left:1245px;width:42px;position: absolute;top:159.5%;"src="./facebook.png">
+                <img style="margin-left:1325px;width:31px;position: absolute;top:160%;"src="./tiktok.png">
+            </div>
+            </span>
+            <div class="c1">
+                <p id="line1">&copy F1RSTMOTORS. ALL RIGHTS RESERVED. REGISTERED COMPANY NUMBER:<b>+91743201030</b></p>
+                <p id="line2">TERMS & CONDITIONS</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
